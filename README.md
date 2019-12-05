@@ -15,3 +15,18 @@ Wildfire_Simulation.pdf holds the slides we created for the project.
 Wildfire Simulation.zip is the Latex package used to compile the slides. 
 
 wildfireproject.py is the python file we used for the project. 
+
+Requirements for project:
+
+Group 3 Wildfire Modeling
+Please read this blog: https://medium.com/@tetraktyz/how-to-simulate-wildfires-with-python-6562e2eed266 and download Pedro's code from Github that is referred to in this blog. Alter his code so that: 
+  it has insulating boundary conditions (having all four edges of the rectangular grid of land, have no trees); 
+  it includes the possibility for a random initial grid; in this case you need a parameter that indicates fraction of the trees that are burning when the simulation begins: you will need a probBurninginBeginning probability parameter. 
+  it includes the chance that lightning can cause a fire during the simulation: you will need a probLightning probability parameter. 
+  it includes the chance that a tree can be immune to catching fire during the simulation (it includes the chance that a tree may not catch fire (even if it has a neighboring burning tree) because of conditions, such as dry weather): you will need a probImmunity probability parameter. 
+Show and analyze different scenarios. At least include:
+  One simulation where just the middle cell is burning initially and run and animate the simulation in which there is no lightning and the probImmunity is 0.2, 0.5 and 0.8.
+  One simulation where the initial conditions on which trees are burning is random and run and animate the simulation in which there is no lightning and the probImmunity is 0.2, 0.5 and 0.8.
+  One simulation where the initial conditions on which trees are burning is random and run and animate the simulation in which there is lightning. (Give three different lightning examples with trees having no immunity.)
+  One simulation where just the middle cell is burning initially and run and animate the simulation in which there is lightning. (Give a three different lightning examples with trees having no immunity.)
+  Include a few others of your choice, discuss the short comings of this cellular automata model.
