@@ -21,13 +21,13 @@ Requirements for project:
 Group 3 Wildfire Modeling
 Please read this blog: https://medium.com/@tetraktyz/how-to-simulate-wildfires-with-python-6562e2eed266 and download Pedro's code from Github that is referred to in this blog. Alter his code so that: 
 
-  it has insulating boundary conditions (having all four edges of the rectangular grid of land, have no trees); 
+  It has insulating boundary conditions (having all four edges of the rectangular grid of land, have no trees); 
   
-  it includes the possibility for a random initial grid; in this case you need a parameter that indicates fraction of the trees that are burning when the simulation begins: you will need a probBurninginBeginning probability parameter. 
+  It includes the possibility for a random initial grid; in this case you need a parameter that indicates fraction of the trees that are burning when the simulation begins: you will need a probBurninginBeginning probability parameter. 
   
-  it includes the chance that lightning can cause a fire during the simulation: you will need a probLightning probability parameter. 
+  It includes the chance that lightning can cause a fire during the simulation: you will need a probLightning probability parameter. 
   
-  it includes the chance that a tree can be immune to catching fire during the simulation (it includes the chance that a tree may not catch fire (even if it has a neighboring burning tree) because of conditions, such as dry weather): you will need a probImmunity probability parameter. 
+  It includes the chance that a tree can be immune to catching fire during the simulation (it includes the chance that a tree may not catch fire (even if it has a neighboring burning tree) because of conditions, such as dry weather): you will need a probImmunity probability parameter. 
   
 Show and analyze different scenarios. At least include:
 
