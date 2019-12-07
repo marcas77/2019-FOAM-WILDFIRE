@@ -16,9 +16,11 @@ Wildfire Simulation.zip is the Latex package used to compile the slides.
 
 wildfireproject.py is the python file we used for the project. 
 
+gif folder provided for code outputs.
+
 Requirements for project:
 
-Group 3 Wildfire Modeling
+"Group 3 Wildfire Modeling
 Please read this blog: https://medium.com/@tetraktyz/how-to-simulate-wildfires-with-python-6562e2eed266 and download Pedro's code from Github that is referred to in this blog. Alter his code so that: 
 
   It has insulating boundary conditions (having all four edges of the rectangular grid of land, have no trees); 
@@ -39,4 +41,4 @@ Show and analyze different scenarios. At least include:
   
   One simulation where just the middle cell is burning initially and run and animate the simulation in which there is lightning. (Give a three different lightning examples with trees having no immunity.)
   
-  Include a few others of your choice, discuss the short comings of this cellular automata model.
+  Include a few others of your choice, discuss the short comings of this cellular automata model."
